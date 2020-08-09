@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2WM-3Y-Q6T">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch Screen2 View Controller-->
+        <scene sceneID="Zhr-Gz-W87">
+            <objects>
+                <viewController id="2WM-3Y-Q6T" customClass="LaunchScreen2ViewController" customModule="ShowTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iJt-Ok-xyH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDK-Ye-9Vg">
+                                <rect key="frame" x="184" y="406" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BDK-Ye-9Vg" firstAttribute="top" secondItem="4F6-tl-kQb" secondAttribute="top" constant="362" id="DJC-D0-O3W"/>
+                            <constraint firstItem="BDK-Ye-9Vg" firstAttribute="leading" secondItem="4F6-tl-kQb" secondAttribute="leading" constant="184" id="KBk-gM-DUX"/>
+                            <constraint firstItem="4F6-tl-kQb" firstAttribute="trailing" secondItem="BDK-Ye-9Vg" secondAttribute="trailing" constant="184" id="OeW-KM-3Rf"/>
+                            <constraint firstItem="4F6-tl-kQb" firstAttribute="bottom" secondItem="BDK-Ye-9Vg" secondAttribute="bottom" constant="426" id="eRA-uu-Pcu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4F6-tl-kQb"/>
+                    </view>
+                    <connections>
+                        <outlet property="launchNo2" destination="BDK-Ye-9Vg" id="M4S-kp-Iqa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VPa-zm-vsZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="67" y="209"/>
+        </scene>
+    </scenes>
+</document>
